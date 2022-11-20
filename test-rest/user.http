@@ -4,8 +4,8 @@ Content-Type: application/json
 
 {
   "nama_user": "admin",
-  "email": "admin11@mail.com",
-  "username": "admin12377",
+  "email": "admi1@mail.com",
+  "username": "adm2377i",
   "password": "12345678"
 }
 
@@ -13,4 +13,4 @@ Content-Type: application/json
 GET http://localhost:3000/user
 
 ### Delete data users
-DELETE http://localhost:3000/user/4
+DELETE http://localhost:3000/user/24
