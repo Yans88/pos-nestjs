@@ -1,0 +1,16 @@
+### Add data users
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+  "nama_user": "hasan",
+  "email": "hasan@mail.com",
+  "username": "hasan",
+  "password": "123456"
+}
+
+### GET request data users
+GET http://localhost:3000/user
+
+### Delete data users
+DELETE http://localhost:3000/user/4
