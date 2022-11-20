@@ -3,10 +3,10 @@ POST http://localhost:3000/user
 Content-Type: application/json
 
 {
-  "nama_user": "hasan",
-  "email": "hasan@mail.com",
-  "username": "hasan",
-  "password": "123456"
+  "nama_user": "admin",
+  "email": "admin11@mail.com",
+  "username": "admin12377",
+  "password": "12345678"
 }
 
 ### GET request data users
