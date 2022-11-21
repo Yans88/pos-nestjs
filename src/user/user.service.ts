@@ -23,6 +23,10 @@ export class UserService {
     return this.userRepo.findOne({ where: { id: id } });
   }
 
+  findUsername(username: string) {
+    return this.userRepo.findOne({ where: { username: username } });
+  }
+
   update(id: number, updateUserDto: UpdateUserDto) {
     updateUserDto.id = id;
     if (updateUserDto.password) {
